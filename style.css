@@ -1,0 +1,12 @@
+/* Normalizing  css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #000000;
+    background-color: #e7e5e3;
+    font-size: 18px;
+}

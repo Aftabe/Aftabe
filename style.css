@@ -10,3 +10,10 @@ body{
     background-color: #e7e5e3;
     font-size: 18px;
 }
+
+/* el-style */
+.el-style {
+    text-transform: uppercase;
+    background-color: gray;
+    text-align: center;
+}

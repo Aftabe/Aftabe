@@ -5,6 +5,11 @@
 
     document.getElementById('demo').appendChild(el);
 
-    localStorage.setItem('elVlue', el);
+
+    // create element
+    let ul = document.createElement('ul');
+    ul.textContent = el;
+
+    localStorage.setItem('newVlue', ul);
 
 }());

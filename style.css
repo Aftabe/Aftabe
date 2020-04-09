@@ -26,4 +26,5 @@ body{
     padding: 20px;
     text-transform: capitalize;
     width: 50%;
+    margin: 0 auto;
 }

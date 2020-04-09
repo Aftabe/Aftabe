@@ -13,3 +13,11 @@
     localStorage.setItem('newVlue', ul);
 
 }());
+
+// text blog
+(function(){
+    let div = document.createElement('div');
+    div.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repellat eum harum itaque ab fugit eos rem, tempora nesciunt tempore nihil magni ipsam voluptate odit reiciendis nostrum soluta voluptatum assumenda unde accusamus saepe dolorum eaque! Distinctio commodi veniam reprehenderit nulla!';
+    div.classList = 'css-style';
+    document.write(div);
+}());

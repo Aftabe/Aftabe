@@ -19,3 +19,10 @@ body{
     text-align: center;
     margin-top: 0;
 }
+
+/* div style */
+.css-style {
+    background-color: #4456ee;
+    padding: 20px;
+    text-transform: capitalize;
+}

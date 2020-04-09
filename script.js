@@ -5,4 +5,6 @@
 
     document.getElementById('demo').appendChild(el);
 
+    localStorage.setItem('elVlue', el);
+
 }());

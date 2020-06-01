@@ -28,3 +28,10 @@ body{
     width: 50%;
     margin: 0 auto;
 }
+
+.nl{
+    width: 300px;
+    height: 200px;
+    background-color: greenyellow;
+    color: grey;
+}

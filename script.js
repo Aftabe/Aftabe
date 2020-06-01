@@ -1,6 +1,6 @@
 (function doSomeThing(){
     let el = document.createElement('h1');
-    el.textContent = 'Heading primary';
+    el.textContent = 'Heading primary is created through javaScript';
     el.classList = 'el-style';
 
     document.getElementById('demo').appendChild(el);

@@ -21,3 +21,11 @@
     div.classList = 'css-style';
     document.querySelector('.div').appendChild(div);
 }());
+
+
+let nL = document.createElement('ul');
+
+nL.textContent = 'this is unorder list';
+nL.classList = 'nl';
+
+document.getElementById('new').appendChild(nL);

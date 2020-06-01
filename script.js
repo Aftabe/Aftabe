@@ -4,7 +4,6 @@
     el.classList = 'el-style';
 
     document.getElementById('demo').appendChild(el);
-    alert(el);
 
 
     // create element

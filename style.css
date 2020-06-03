@@ -7,7 +7,12 @@
 
 /* css variable */
 
-$myColor: #333;
+/* $myColor: #333; */
+
+/* --mainWhite = #fffff;
+--mainDark = #333;
+--mainGreen = #0fe05f;
+ */
 
 
 body {    font-family: 'Amethysta';font-size: 22px;
@@ -59,3 +64,7 @@ li a:hover:not(.active) {
 /* .sticky+.content {
     padding-top: 60px;
 } */
+
+h1{
+    color: #0fe05f;
+}

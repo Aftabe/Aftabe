@@ -5,7 +5,13 @@
     box-sizing: border-box;
 }
 
-body {}
+/* css variable */
+
+$myColor: #333;
+
+
+body {    font-family: 'Amethysta';font-size: 22px;
+}
 
 
 

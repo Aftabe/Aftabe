@@ -26,7 +26,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    /* background-color: #333; */
+    background-color: inherit;
 }
 
 li {
@@ -73,5 +74,9 @@ h1{
 .banner{
     min-height: 97vh;
     min-width: 100vw;
-    background-image: url();
+    background-image: url(./water-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }

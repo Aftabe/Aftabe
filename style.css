@@ -68,3 +68,10 @@ li a:hover:not(.active) {
 h1{
     color: #0fe05f;
 }
+
+/* banner section */
+.banner{
+    min-height: 97vh;
+    min-width: 100vw;
+    background-image: url();
+}

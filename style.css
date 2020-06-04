@@ -27,7 +27,7 @@ ul {
     padding: 0;
     overflow: hidden;
     /* background-color: #333; */
-    background-color: inherit;
+    background-color: #ffffff4b;
 }
 
 li {
@@ -41,7 +41,7 @@ li:last-child {
 
 li a {
     display: block;
-    color: white;
+    color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

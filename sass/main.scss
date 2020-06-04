@@ -1,0 +1,84 @@
+/* Normalizing  css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* css variable */
+
+$myColor: #000000;
+$bgColor:  #ffffff4b;
+$borderColor: #bbb;
+
+/* --mainWhite = #fffff;
+--mainDark = #333;
+--mainGreen = #0fe05f;
+ */
+
+
+body {    font-family: 'Amethysta';font-size: 22px;
+}
+
+
+
+/* nav bar style */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+    background-color: $bgColor;
+}
+
+li {
+    float: left;
+    border-right: 1px solid $borderColor;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: $myColor;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* stichy navbar */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* .sticky+.content {
+    padding-top: 60px;
+} */
+
+h1{
+    color: #0fe05f;
+}
+
+/* banner section */
+.banner{
+    min-height: 97vh;
+    min-width: 100vw;
+    background-image: url(./water-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

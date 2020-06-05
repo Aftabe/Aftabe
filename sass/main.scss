@@ -8,7 +8,8 @@
 /* css variable */
 
 $myColor: #000000;
-$bgColor:  #ffffff4b;
+$mainWhite: #ffffff;
+$bgColor: #ffffff4b;
 $borderColor: #bbb;
 
 /* --mainWhite = #fffff;
@@ -17,7 +18,9 @@ $borderColor: #bbb;
  */
 
 
-body {    font-family: 'Amethysta';font-size: 22px;
+body {
+    font-family: 'Amethysta';
+    font-size: 22px;
 }
 
 
@@ -30,27 +33,27 @@ ul {
     overflow: hidden;
     /* background-color: #333; */
     background-color: $bgColor;
-}
 
-li {
-    float: left;
-    border-right: 1px solid $borderColor;
-}
-
-li:last-child {
-    border-right: none;
-}
-
-li a {
-    display: block;
-    color: $myColor;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    li {
+        float: left;
+        border-right: 1px solid $borderColor;
+        &:last-child{
+            border-right: none;
+        }
+        a {
+            display: block;
+            color: $myColor;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none; 
+            &:hover:not(.active){
+                background-color: $mainWhite;
+            }
+        }
+    }
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
 }
 
 .active {
@@ -68,12 +71,12 @@ li a:hover:not(.active) {
     padding-top: 60px;
 } */
 
-h1{
+h1 {
     color: #0fe05f;
 }
 
 /* banner section */
-.banner{
+.banner {
     min-height: 97vh;
     min-width: 100vw;
     background-image: url(./water-3.jpg);

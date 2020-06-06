@@ -36,7 +36,7 @@ ul {
         background-color: #ffffff; }
 
 .active {
-  background-color: #4CAF50; }
+  background-color: #E55934; }
 
 /* stichy navbar */
 .sticky {
@@ -47,8 +47,6 @@ ul {
 /* .sticky+.content {
     padding-top: 60px;
 } */
-
-
 /* banner section */
 .banner {
   min-height: 97vh;

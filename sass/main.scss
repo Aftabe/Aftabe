@@ -59,7 +59,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: $mainRed;
 }
 
 /* stichy navbar */
@@ -72,10 +72,6 @@ li a:hover:not(.active) {
 /* .sticky+.content {
     padding-top: 60px;
 } */
-
-h1 {
-    color: #0fe05f;
-}
 
 /* banner section */
 .banner {

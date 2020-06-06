@@ -55,4 +55,17 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  position: relative; }
+
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .text-box h1 {
+    color: #ffffff;
+    font-weight: 700; }
+    .text-box h1 span {
+      color: yellowgreen;
+      font-size: 70px; }

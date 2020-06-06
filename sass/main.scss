@@ -82,4 +82,22 @@ li a:hover:not(.active) {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    position: relative;
+}
+
+// text-box style
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate((-50%, -50%));
+    h1{
+        color: 
+        $mainWhite;
+        font-weight: 700;
+        span{
+            color: yellowgreen;
+            font-size: 70px;
+        }
+    }
 }

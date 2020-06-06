@@ -2,8 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /* css variable */
 /* --mainWhite = #fffff;
@@ -12,8 +11,7 @@
  */
 body {
   font-family: 'Amethysta';
-  font-size: 22px;
-}
+  font-size: 22px; }
 
 /* nav bar style */
 ul {
@@ -22,47 +20,35 @@ ul {
   padding: 0;
   overflow: hidden;
   /* background-color: #333; */
-  background-color: #ffffff4b;
-}
-
-ul li {
-  float: left;
-  border-right: 1px solid #bbb;
-}
-
-ul li:last-child {
-  border-right: none;
-}
-
-ul li a {
-  display: block;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul li a:hover:not(.active) {
-  background-color: #ffffff;
-}
+  background-color: #ffffff4b; }
+  ul li {
+    float: left;
+    border-right: 1px solid #bbb; }
+    ul li:last-child {
+      border-right: none; }
+    ul li a {
+      display: block;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none; }
+      ul li a:hover:not(.active) {
+        background-color: #ffffff; }
 
 .active {
-  background-color: #4CAF50;
-}
+  background-color: #4CAF50; }
 
 /* stichy navbar */
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
-}
+  width: 100%; }
 
 /* .sticky+.content {
     padding-top: 60px;
 } */
 h1 {
-  color: #0fe05f;
-}
+  color: #0fe05f; }
 
 /* banner section */
 .banner {
@@ -72,5 +58,4 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
-}
+  background-attachment: fixed; }

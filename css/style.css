@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Amethysta';
+  font-size: 22px; }
+
+/* banner section */
+.banner {
+  min-height: 97vh;
+  min-width: 100vw;
+  background-image: url(../img/water-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative; }
+
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .text-box h1 {
+    color: ivory;
+    font-weight: 700; }
+    .text-box h1 span {
+      color: yellowgreen;
+      font-size: 69px; }
+  .text-box h2 {
+    color: white; }
+
+/* nav bar style */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+  background-color: gray; }
+  ul li {
+    float: left;
+    border-right: 1px solid #8d7f7f; }
+    ul li:last-child {
+      border-right: none; }
+    ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none; }
+      ul li a:hover:not(.active) {
+        background-color: white; }
+
+li a:hover:not(.active) {
+  color: greenyellow; }
+
+.active {
+  background-color: red; }

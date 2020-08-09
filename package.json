@@ -4,7 +4,7 @@
   "description": "a new landing page",
   "main": "script.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss style.css -w"
+    "compile:sass": "node-sass sass/main.scss style.css"
   },
   "repository": {
     "type": "git",

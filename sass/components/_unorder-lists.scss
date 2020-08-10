@@ -1,0 +1,35 @@
+/* nav bar style */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+    background-color: gray;
+
+    li {
+        float: left;
+        border-right: 1px solid rgb(141, 127, 127);
+        &:last-child{
+            border-right: none;
+        }
+        a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none; 
+            &:hover:not(.active){
+                background-color: white;
+            }
+        }
+    }
+}
+
+li a:hover:not(.active) {
+    color: greenyellow;
+}
+
+.active {
+    background-color: red;
+}

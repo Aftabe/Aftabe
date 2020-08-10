@@ -1,0 +1,30 @@
+/* banner section */
+.banner {
+    min-height: 97vh;
+    min-width: 100vw;
+    background-image: url(../img/water-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+// text-box style
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate((-50%, -50%));
+    h1{
+        color: ivory;
+        font-weight: 700;
+        span{
+            color: yellowgreen;
+            font-size: 69px;
+        }
+    }
+    h2{
+        color: white;
+    }
+}

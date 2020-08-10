@@ -1,10 +1,10 @@
 {
-  "name": "testing",
+  "name": "aftabe",
   "version": "1.0.0",
-  "description": "a new landing page",
+  "description": "Scss landing page",
   "main": "script.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",

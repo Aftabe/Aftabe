@@ -55,7 +55,7 @@ ul {
         background-color: white; }
 
 li a:hover:not(.active) {
-  color: greenyellow; }
+  color: #adff2f; }
 
 .active {
-  background-color: red; }
+  background-color: greenyellow; }

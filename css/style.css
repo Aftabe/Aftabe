@@ -62,4 +62,4 @@ li a:hover:not(.active) {
 
 .active {
   color: black;
-  border: 1.5px solid yellowgreen; }
+  border-right: 1.5px solid #b3f828; }

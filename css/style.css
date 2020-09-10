@@ -17,6 +17,9 @@ body {
   background-position: center;
   background-attachment: fixed;
   position: relative; }
+  .banner .wlc {
+    position: relative;
+    cursor: pointer; }
 
 .text-box {
   position: absolute;
@@ -55,7 +58,8 @@ ul {
         background-color: white; }
 
 li a:hover:not(.active) {
-  color: #adff2f; }
+  color: black; }
 
 .active {
-  background-color: greenyellow; }
+  color: black;
+  border: 1.5px solid yellowgreen; }

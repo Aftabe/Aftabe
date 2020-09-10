@@ -27,9 +27,12 @@ ul {
 }
 
 li a:hover:not(.active) {
-    color: #adff2f;
+    color: black;
 }
 
 .active {
-    background-color: greenyellow;
+    // background-color: greenyellow;
+    color: black;
+    // border-radius: 10px;
+    border: 1.5px solid yellowgreen;
 }

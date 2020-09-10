@@ -55,7 +55,7 @@ ul {
       padding: 14px 16px;
       text-decoration: none; }
       ul li a:hover:not(.active) {
-        background-color: white; }
+        background-color: #ffffff; }
 
 li a:hover:not(.active) {
   color: black; }

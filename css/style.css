@@ -50,12 +50,12 @@ ul {
       border-right: none; }
     ul li a {
       display: block;
-      color: white;
+      color: #ffffff;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none; }
       ul li a:hover:not(.active) {
-        background-color: #ffffff; }
+        background-color: hsl(0, 0%, 100%); }
 
 li a:hover:not(.active) {
   color: black; }

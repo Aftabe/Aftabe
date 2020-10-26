@@ -50,12 +50,12 @@ ul {
       border-right: none; }
     ul li a {
       display: block;
-      color: #ffffff;
+      color: white;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none; }
       ul li a:hover:not(.active) {
-        background-color: hsl(0, 0%, 100%); }
+        background-color: #ffffff; }
 
 li a:hover:not(.active) {
   color: black; }
@@ -63,3 +63,18 @@ li a:hover:not(.active) {
 .active {
   color: black;
   border-right: 1.5px solid #b3f828; }
+
+.container {
+  padding: 10px;
+  background-color: #2cc1d4; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.col {
+  width: 45%;
+  margin: 5px;
+  padding: 10px;
+  background-color: white; }

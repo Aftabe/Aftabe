@@ -77,6 +77,11 @@ li a:hover:not(.active) {
   margin: 5px;
   padding: 10px;
   background-color: white; }
+  .col h1 {
+    text-transform: uppercase; }
+  .col p {
+    margin-top: 7px;
+    color: gray; }
 
 .img-box .img {
   width: 637px;

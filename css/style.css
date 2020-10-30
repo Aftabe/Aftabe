@@ -67,13 +67,6 @@ li a:hover:not(.active) {
   padding: 10px;
   background-color: #2cc1d4; }
 
-* {
-  box-sizing: border-box; }
-
-body {
-  font-family: Verdana, sans-serif;
-  margin: 0; }
-
 .mySlides {
   display: none; }
 
@@ -82,9 +75,11 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  min-height: 60vh;
+  width: 100%;
   position: relative;
-  margin: auto; }
+  margin: auto;
+  padding-top: 10px; }
 
 /* Next & previous buttons */
 .prev, .next {
@@ -94,7 +89,7 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: red;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -149,23 +144,6 @@ img {
   animation-name: fade;
   animation-duration: 1.5s; }
 
-@-webkit-keyframes fade {
-  from {
-    opacity: .4; }
-  to {
-    opacity: 1; } }
-
-@keyframes fade {
-  from {
-    opacity: .4; }
-  to {
-    opacity: 1; } }
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next, .text {
-    font-size: 11px; } }
-
 .row {
   display: flex;
   flex-direction: row;
@@ -185,3 +163,20 @@ img {
 .img-box .img {
   width: 637px;
   height: 400px; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {
+    font-size: 11px; } }

@@ -46,3 +46,13 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+// .box-underline 
+var boxC = document.querySelector('.box-c');
+// console.log(boxC);
+
+
+boxC.addEventListener('click', doSomeThing);
+
+function doSomeThing(){
+  document.querySelector('.box-underline').style.display = "block";
+}

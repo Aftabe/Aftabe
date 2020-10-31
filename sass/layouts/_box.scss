@@ -1,0 +1,40 @@
+.main-box{
+    margin-top: 30px;
+    display: flex;
+    .box-a{
+        width: 40px;
+        height: 40px;
+        background-color: #9acd32;
+        margin: 5px;
+        &:hover{
+            background-color:  #208fd8;
+        }
+    }
+    .box-b{
+        width: 40px;
+        height: 40px;
+        background-color: #cd7832;
+        margin: 5px;
+        &:hover{
+            background-color: hsla(27, 61%, 50%, 0.842) ;
+        }
+    }
+    .box-c{
+        width: 40px;
+        height: 40px;
+        background-color: #208fd8;
+        margin: 5px;
+        &:hover{
+            background-color: #9acd32;
+        }
+    }
+}
+
+// box-underline
+.box-underline{
+    width: 141px;
+    height: 2px;
+    background-color:red;
+    margin: 5px;
+    display: none
+}

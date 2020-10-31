@@ -65,7 +65,7 @@ li a:hover:not(.active) {
 
 .container {
   padding: 10px;
-  background-color: #2cc1d4; }
+  margin: 20px auto; }
 
 .mySlides {
   display: none; }
@@ -182,3 +182,35 @@ img {
 @media only screen and (max-width: 300px) {
   .prev, .next, .text {
     font-size: 11px; } }
+
+.main-box {
+  margin-top: 30px;
+  display: flex; }
+  .main-box .box-a {
+    width: 40px;
+    height: 40px;
+    background-color: #9acd32;
+    margin: 5px; }
+    .main-box .box-a:hover {
+      background-color: #208fd8; }
+  .main-box .box-b {
+    width: 40px;
+    height: 40px;
+    background-color: #cd7832;
+    margin: 5px; }
+    .main-box .box-b:hover {
+      background-color: rgba(205, 120, 50, 0.842); }
+  .main-box .box-c {
+    width: 40px;
+    height: 40px;
+    background-color: #208fd8;
+    margin: 5px; }
+    .main-box .box-c:hover {
+      background-color: #9acd32; }
+
+.box-underline {
+  width: 141px;
+  height: 2px;
+  background-color: red;
+  margin: 5px;
+  display: none; }

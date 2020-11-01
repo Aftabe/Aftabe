@@ -51,7 +51,7 @@ var boxC = document.querySelector('.box-c');
 // console.log(boxC);
 
 
-boxC.addEventListener('onmouseover', doSomeThing);
+boxC.addEventListener('mousemove', doSomeThing);
 
 function doSomeThing(){
   document.querySelector('.box-underline').style.display = "block";

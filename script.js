@@ -51,8 +51,13 @@ var boxC = document.querySelector('.box-c');
 // console.log(boxC);
 
 
-boxC.addEventListener('click', doSomeThing);
+boxC.addEventListener('onmouseover', doSomeThing);
 
 function doSomeThing(){
   document.querySelector('.box-underline').style.display = "block";
+}
+
+
+function changeText(id){
+  id.innerHTML = 'This is a new text!';
 }

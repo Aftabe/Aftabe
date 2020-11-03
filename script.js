@@ -59,5 +59,5 @@ function doSomeThing(){
 
 
 function changeText(id){
-  id.innerHTML = 'This is a new text!';
+  id.innerHTML = 'This is a new through the function';
 }

@@ -194,7 +194,8 @@ img {
     margin-left: 500px;
     color: white;
     margin-bottom: -160px;
-    padding-top: 120px; }
+    padding-top: 120px;
+    text-transform: uppercase; }
   .slide-band .stars {
     margin-top: 200px;
     margin-left: 670px;

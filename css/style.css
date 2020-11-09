@@ -207,6 +207,9 @@ img {
     color: red;
     cursor: pointer; }
 
+.newStyle {
+  background-color: goldenrod; }
+
 .main-box {
   margin-top: 30px;
   display: flex; }

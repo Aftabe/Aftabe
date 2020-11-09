@@ -61,3 +61,13 @@ function doSomeThing(){
 function changeText(id){
   id.innerHTML = 'This is a new through the function';
 }
+
+// supper-str
+document.getElementById('supper-str').addEventListener('click', fireFunction);
+console.log(fireFunction());
+
+
+//fireFunction
+function fireFunction(){
+  document.getElementById('supper-star').className = 'newStyle';
+}

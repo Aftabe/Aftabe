@@ -191,15 +191,21 @@ img {
   background-size: cover;
   background-attachment: fixed; }
   .slide-band h1 {
-    margin-left: 500px;
+    text-align: center;
     color: white;
     margin-bottom: -160px;
     padding-top: 120px;
     text-transform: uppercase; }
   .slide-band .stars {
     margin-top: 200px;
-    margin-left: 670px;
+    text-align: center;
     color: white; }
+  .slide-band .supper-star {
+    text-align: center;
+    padding: 10px;
+    font-size: 70px;
+    color: red;
+    cursor: pointer; }
 
 .main-box {
   margin-top: 30px;

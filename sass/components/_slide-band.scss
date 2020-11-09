@@ -6,7 +6,7 @@
     background-size: cover;
     background-attachment: fixed;
     h1{
-        margin-left: 500px;
+        text-align: center;
         color: white;
         margin-bottom: -160px;
         padding-top: 120px;
@@ -15,8 +15,18 @@
     // stars
     .stars{
         margin-top: 200px;
-        margin-left: 670px;
+        // margin-left: 670px;
+        text-align: center;
         color: white;
     
+    }
+
+    //supper-star
+    .supper-star{
+        text-align: center;
+        padding: 10px;
+        font-size: 70px;
+        color: red;
+        cursor: pointer;
     }
 }

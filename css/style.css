@@ -210,6 +210,9 @@ img {
 .newStyle {
   background-color: goldenrod; }
 
+.map .embed-frame {
+  min-height: 40vh; }
+
 .main-box {
   margin-top: 30px;
   display: flex; }

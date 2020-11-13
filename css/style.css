@@ -210,6 +210,10 @@ img {
 .newStyle {
   background-color: goldenrod; }
 
+.featrures {
+  padding: 10px;
+  color: green; }
+
 .map .embed-frame {
   min-height: 40vh; }
 

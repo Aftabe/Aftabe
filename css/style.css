@@ -222,11 +222,16 @@ img {
     align-items: center;
     text-align: center;
     padding: 15px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.589);
     display: inline-block;
-    border-radius: 10px;
-    margin-top: 200px;
+    border-radius: 14px;
+    line-height: 1.5;
+    margin-top: 180px;
     margin-left: 400px; }
+    .reminder .remimder-box:hover {
+      background-color: rgba(255, 255, 255, 0.794); }
+    .reminder .remimder-box p {
+      text-align: left; }
 
 .map .embed-frame {
   min-height: 40vh; }

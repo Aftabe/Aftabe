@@ -1,0 +1,22 @@
+.reminder {
+    min-height: 50vh;
+    background-image: url('https://images.unsplash.com/photo-1586892477901-f70e288a7318?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .remimder-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // min-height: 50vh;
+        text-align: center;
+        padding: 15px;
+        background-color: white;
+        display: inline-block;
+        border-radius: 10px;
+        margin-top: 200px;
+        margin-left: 400px;
+
+    }
+}

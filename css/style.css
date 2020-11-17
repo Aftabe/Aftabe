@@ -227,9 +227,11 @@ img {
     border-radius: 14px;
     line-height: 1.5;
     margin-top: 180px;
-    margin-left: 400px; }
+    margin-left: 400px;
+    transition: all .3s ease-in; }
     .reminder .remimder-box:hover {
-      background-color: rgba(255, 255, 255, 0.794); }
+      background-color: rgba(255, 255, 255, 0.794);
+      color: #3f3939; }
     .reminder .remimder-box p {
       text-align: left; }
 
@@ -267,3 +269,26 @@ img {
   background-color: #ff0000;
   margin: 5px;
   display: none; }
+
+.footer {
+  min-height: 40vh;
+  background-image: url(https://images.unsplash.com/photo-1544034287-c9c09e0341a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }
+  .footer .icons {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .footer .f-btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-60%, -60%);
+    padding: 10px 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    outline: none;
+    border: none; }

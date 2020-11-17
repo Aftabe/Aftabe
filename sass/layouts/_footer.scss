@@ -1,0 +1,30 @@
+.footer {
+    min-height: 40vh;
+    background-image: url(https://images.unsplash.com/photo-1544034287-c9c09e0341a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    // icons
+    .icons {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    // button
+    .f-btn {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-60%, -60%);
+        padding: 10px 20px;
+        font-size: 30px;
+        text-transform: uppercase;
+        outline: none;
+        border: none;
+
+    }
+}

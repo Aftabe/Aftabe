@@ -18,13 +18,20 @@
     .f-btn {
         position: absolute;
         top: 90%;
-        left: 50%;
+        left: 51%;
         transform: translate(-60%, -60%);
         padding: 10px 20px;
         font-size: 30px;
         text-transform: uppercase;
         outline: none;
         border: none;
+        border-radius: 10px;
 
+    }
+    // f-icon
+    .f-icon{
+        font-size: 30px;
+        margin-left: 10px;
+        color: orange;
     }
 }

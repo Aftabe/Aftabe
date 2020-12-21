@@ -1,5 +1,6 @@
 .footer {
-    min-height: 40vh;
+    min-height: 45vh;
+    padding-bottom: 14px;
     background-image: url(https://images.unsplash.com/photo-1544034287-c9c09e0341a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80);
     background-position: center;
     background-size: cover;
@@ -17,6 +18,7 @@
     // button
     .f-btn {
         position: absolute;
+        width: 400px;
         top: 90%;
         left: 51%;
         transform: translate(-60%, -60%);
@@ -26,6 +28,11 @@
         outline: none;
         border: none;
         border-radius: 10px;
+        transition: all .3s;
+        &:hover{
+            color: orange;
+            background-color: gray;
+        }
 
     }
     // f-icon
@@ -33,5 +40,8 @@
         font-size: 30px;
         margin-left: 10px;
         color: orange;
+        &:hover{
+            color: rgb(117, 78, 5);
+        }
     }
 }

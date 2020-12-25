@@ -5,7 +5,8 @@
 
 body {
   font-family: 'Amethysta';
-  font-size: 22px; }
+  font-size: 22px;
+  color: #1f1c1c; }
 
 /* banner section */
 .banner {
@@ -298,7 +299,7 @@ img {
     transition: all .3s; }
     .footer .f-btn:hover {
       color: orange;
-      background-color: gray; }
+      background-color: #808080e8; }
   .footer .f-icon {
     font-size: 30px;
     margin-left: 10px;

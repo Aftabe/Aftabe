@@ -44,8 +44,7 @@ ul {
   /* background-color: #333; */
   background-color: gray; }
   ul li {
-    float: left;
-    border-right: 1px solid #8d7f7f; }
+    float: left; }
     ul li:last-child {
       border-right: none; }
     ul li a {

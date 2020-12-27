@@ -5,7 +5,7 @@ ul {
     padding: 0;
     overflow: hidden;
     /* background-color: #333; */
-    background-color: gray;
+    background-color: #808080;
     
 
     li {
@@ -16,7 +16,6 @@ ul {
         &:nth-last-child(3){
             // // background-color: rgb(179, 248, 40);
             // border-right: none !important;
-            // margin-right: 0px;
         }
         a {
             display: block;

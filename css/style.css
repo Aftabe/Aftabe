@@ -274,8 +274,8 @@ img {
   display: none; }
 
 .main-box-c {
-  border: 1px solid grey;
-  margin-right: 490px; }
+  border: 1px solid grey !important;
+  margin-right: 490px !important; }
 
 .footer {
   min-height: 45vh;

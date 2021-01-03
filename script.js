@@ -48,7 +48,16 @@ function showSlides(n) {
 }
 // .box-underline 
 var boxC = document.querySelector('.box-c');
-// console.log(boxC);
+var boxD = document.querySelector('.box-b');
+
+// Adding an eventlinster to the boxD variable
+boxD.addEventListener('click', ChangeboxD);
+
+function ChangeboxD(){
+  var mainBox = document.querySelector('main-box');
+  mainBox.add.classList('main-box-c');
+}
+
 
 
 boxC.addEventListener('click', doSomeThing);

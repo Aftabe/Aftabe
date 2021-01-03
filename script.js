@@ -55,7 +55,7 @@ boxD.addEventListener('click', ChangeboxD);
 
 function ChangeboxD(){
   var mainBox = document.querySelector('main-box');
-  mainBox.add.classList('main-box-c');
+  mainBox.classList('main-box-c');
 }
 
 

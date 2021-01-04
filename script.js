@@ -54,7 +54,7 @@ var boxD = document.querySelector('.box-b');
 boxD.addEventListener('click', ChangeboxD);
 
 function ChangeboxD(){
-  var mainBox = document.querySelector('main-box');
+  var mainBox = document.querySelector('.main-box');
   mainBox.classList('main-box-c');
 }
 
@@ -78,5 +78,17 @@ console.log(fireFunction());
 
 //fireFunction
 function fireFunction(){
-  document.getElementById('supper-star').className = 'newStyle';
+  document.getElementById('supper-str').className = 'newStyle';
 }
+
+
+
+var txt;
+txt = 'Sahil';
+txt = 'ALI';
+
+
+
+
+
+console.log(txt);

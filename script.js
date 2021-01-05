@@ -83,9 +83,12 @@ function fireFunction(){
 
 
 
-var txt;
-txt = 'Sahil';
-txt = 'ALI';
+var txt,
+outPut;
+
+Txt = 'This is the txt variable';
+
+outPut = txt.split(', ');
 
 
 

@@ -73,7 +73,7 @@ function changeText(id){
 
 // supper-str
 document.getElementById('supper-str').addEventListener('click', fireFunction);
-console.log(fireFunction());
+// console.log(fireFunction());
 
 
 //fireFunction
@@ -83,15 +83,16 @@ function fireFunction(){
 
 
 
-var txt,
-outPut;
+const number = 20;
+var outPut;
 
-Txt = 'This is the txt variable';
+outPut = number;
+outPut = Math;
+outPut = Math.PI;
 
-outPut = txt.split(', ');
+console.log(outPut);
+alert(outPut);
 
 
-
-
-
-console.log(txt);
+let today = new Date();
+console.log(typeof today);

@@ -276,7 +276,7 @@ img {
   margin-right: 490px !important; }
 
 .footer {
-  min-height: 45vh;
+  min-height: 60vh;
   padding-bottom: 14px;
   background-image: url(https://images.unsplash.com/photo-1544034287-c9c09e0341a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80);
   background-position: center;
@@ -310,3 +310,13 @@ img {
     color: orange; }
     .footer .f-icon:hover {
       color: #754e05; }
+  .footer .bottom-line {
+    width: 1100px;
+    height: 3px;
+    background-color: #ca8585;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%); }

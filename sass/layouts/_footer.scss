@@ -1,5 +1,5 @@
-.footer {
-    min-height: 45vh;
+.footer{
+    min-height: 60vh;
     padding-bottom: 14px;
     background-image: url(https://images.unsplash.com/photo-1544034287-c9c09e0341a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80);
     background-position: center;
@@ -44,4 +44,19 @@
             color: rgb(117, 78, 5);
         }
     }
+
+    // bottom-line
+
+.bottom-line{
+    width: 1100px;
+    height: 3px;
+    background-color: rgb(202, 133, 133);
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 }

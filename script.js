@@ -106,3 +106,41 @@ console.log(outPut);
 
 let today = new Date();
 console.log(typeof today);
+
+
+
+// Some codes for testing
+
+const product1 = 'Pizza';
+const price1 = 30;
+const product2 = 'Hamburger';
+const price2 = 40;
+
+// Old Method
+// let html;
+// html = '<ul>' +
+//   '<li>Item: ' + product1 + '</li>' +
+//   '<li>Price: $ ' + price1 + '</li>' +
+//   '<li>Item: ' + product2 + '</li>' +
+//   '<li>Price: $ ' + price2 + '</li>' +
+//   '<li>Total: $' + (price1 + price2) + '</li>';
+// '</ul>';
+
+// Template Strings
+
+html = `
+    <ul>
+        <li>Item: ${product1}</li>
+        <li>Price: ${price1}</li>
+        <li>Item: ${product2}</li>
+        <li>Price: ${price2}  </li>
+        <li>Total: ${sumUp(price1, price2)}</li>
+    </ul>
+`;
+
+function sumUp(pram1, pram2){
+  return pram1 + pram2;
+}
+
+let templateElement = document.querySelector('#TEMPLATE-LITERALS');
+templateElement.innerHTML = html;

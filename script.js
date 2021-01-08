@@ -117,13 +117,14 @@ const price2 = 40;
 
 // Old Method
 let html;
-html  = '<ul>'+
-        '<li>Item: ' + product1 + '</li>' +
-        '<li>Price: $ ' + price1 + '</li>' +
-        '<li>Item: ' + product2 + '</li>' +
-        '<li>Price: $ ' + price2 + '</li>' +
-        '<li>Total: $' + (price1 + price2) + '</li>';
-        '</ul>';
+
+// html  = '<ul>'+
+//         '<li>Item: ' + product1 + '</li>' +
+//         '<li>Price: $ ' + price1 + '</li>' +
+//         '<li>Item: ' + product2 + '</li>' +
+//         '<li>Price: $ ' + price2 + '</li>' +
+//         '<li>Total: $' + (price1 + price2) + '</li>';
+//         '</ul>';
 
 // Template Strings
 

@@ -110,21 +110,20 @@ console.log(typeof today);
 
 
 // Some codes for testing
-
 const product1 = 'Pizza';
 const price1 = 30;
 const product2 = 'Hamburger';
 const price2 = 40;
 
 // Old Method
-// let html;
-// html = '<ul>' +
-//   '<li>Item: ' + product1 + '</li>' +
-//   '<li>Price: $ ' + price1 + '</li>' +
-//   '<li>Item: ' + product2 + '</li>' +
-//   '<li>Price: $ ' + price2 + '</li>' +
-//   '<li>Total: $' + (price1 + price2) + '</li>';
-// '</ul>';
+let html;
+html  = '<ul>'+
+        '<li>Item: ' + product1 + '</li>' +
+        '<li>Price: $ ' + price1 + '</li>' +
+        '<li>Item: ' + product2 + '</li>' +
+        '<li>Price: $ ' + price2 + '</li>' +
+        '<li>Total: $' + (price1 + price2) + '</li>';
+        '</ul>';
 
 // Template Strings
 
@@ -134,13 +133,15 @@ html = `
         <li>Price: ${price1}</li>
         <li>Item: ${product2}</li>
         <li>Price: ${price2}  </li>
-        <li>Total: ${sumUp(price1, price2)}</li>
+        <li>Total: ${total(price1, price2)}</li>
     </ul>
 `;
 
-function sumUp(pram1, pram2){
-  return pram1 + pram2;
+function total(param1, param2) {
+    return param1 + param2;
 }
 
-let templateElement = document.querySelector('#TEMPLATE-LITERALS');
-templateElement.innerHTML = html;
+// HTML to inject the code
+
+let app = document.querySelector('#app');
+app.innerHTML = html ;

@@ -57,17 +57,36 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 // .box-underline 
+var mainBox = document.querySelector('.main-box');
 var boxC = document.querySelector('.box-c');
 var boxD = document.querySelector('.box-b');
 
+
+// txt-box
+let txtBox = document.querySelector('txt-box');
+txtBox.addEventListener('mouseover', cleanBorder);
 // Adding an eventlinster to the boxD variable
 boxD.addEventListener('click', ChangeboxD);
+
+
+// Functions
+function cleanBorder(){
+// txtBox.cleanBorder.remove('main-box-c');
+alert(2);
+};
 
 function ChangeboxD() {
   var mainBox = document.querySelector('.main-box');
   mainBox.classList('main-box-c');
 }
 
+mainBox.addEventListener('mouseover', mainBoFunction);
+
+
+
+function mainBoFunction(){
+  mainBox.classList.add('main-box-c');
+}
 
 
 boxC.addEventListener('click', doSomeThing);

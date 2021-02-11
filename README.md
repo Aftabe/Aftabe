@@ -1,2 +1,2 @@
 # life style
-scss_practice file
+scss_practice page

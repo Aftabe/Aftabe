@@ -137,7 +137,7 @@ img {
   transition: background-color 0.6s ease; }
 
 .active, .dot:hover {
-  background-color: #717171; }
+  background-color: #807272; }
 
 /* Fading animation */
 .fade {
@@ -193,7 +193,7 @@ img {
   background-attachment: fixed; }
   .slide-band h1 {
     text-align: center;
-    color: white;
+    color: #ffffff;
     margin-bottom: -160px;
     padding-top: 120px;
     text-transform: uppercase; }

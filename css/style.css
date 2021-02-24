@@ -149,7 +149,8 @@ img {
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: space-around; 
+}
 
 .col {
   width: 45%;
